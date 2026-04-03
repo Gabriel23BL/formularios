@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-ASC-L-51 Registro de Análisis (Landscape)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header-logos">
+            <div>
+                <img class="imgLogo" src="logo_mcl.svg" alt="logo_morrocel">
+                <img style="margin-left: 30px;" class="imgLogo" src="logo_crx.svg" alt="logo_Curex">
+                <div class="bold text-center" style="margin-left: 20px;">Aseguramiento de la Calidad</div>
+            </div>
+            <div class="doc-info">
+                F-ASC-L-51
+                <br>
+                REV.: <input type="text" class="input-line bg-grey" style="width: 10px;">
+                <br>
+                FECHA:<input type="text" class="input-line bg-grey" style="width: 50px;">
+            </div>
+        </div>
+
+        <div class="form-row" style="justify-content: space-between; margin-bottom: 8px;">
+            <div class="bold font-11 text-center" style="flex-grow: 1;">CONTROL DE CALIDAD DE CORES Y PALETAS RECIBIDOS EN PLANTA</div>
+            <div class="form-item"><label>EMPRESA:</label> <input type="text" class="input-line bg-grey" style="width: 200px;"></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-item" style="flex: 1;"><label>FECHA DE RECEPCIÓN EN PLANTA:</label> <input type="text" class="input-line bg-grey" style="width: 60%;"></div>
+            <div class="form-item" style="flex: 1;"><label>PROVEEDOR:</label> <input type="text" class="input-line bg-grey" style="width: 100%;"></div>
+        </div>
+
+        <div class="form-row" style="justify-content: space-between;">
+            <div class="form-item"><label>MATERIAL:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
+            <div class="form-item">Especifique (Otro material): <input type="text" class="input-line text-center" value="***" style="width: 60px;"></div>
+            <div class="form-item"><label>OC:</label> <input type="text" class="input-line bg-grey" style="width: 100px;"></div>
+            <div class="form-item"><label>FACTURA:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
+        </div>
+
+        <div class="form-row" style="justify-content: space-between;">
+            <div class="form-item"><label>TIPO:</label> <input type="text" class="input-line bg-grey" style="width: 175px;"></div>
+            <div class="form-item">Especifique (Otro tipo): <input type="text" class="input-line text-center" value="***" style="width: 60px;"></div>
+            <div class="form-item"><label>CANTIDAD:</label> <input type="text" class="input-line bg-grey" style="width: 100px;"></div>
+            <div class="form-item"><label>MUESTRAS:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
+        </div>
+
+        <div class="form-row" style="justify-content: flex-start; gap: 15px;">
+            <div class="form-item"><label>MEDIDAS (mm):</label></div>
+            <div class="form-item">Diámetro: <input type="text" class="input-line text-center" value="***" style="width: 50px;"></div>
+            <div class="form-item">Largo: <input type="text" class="input-line bg-grey" style="width: 70px;"></div>
+            <div class="form-item">Espesor: <input type="text" class="input-line text-center" value="***" style="width: 50px;"></div>
+            <div class="form-item">Ancho: <span style="text-decoration: underline; margin: 0 5px;"> 1000 </span>.</div>
+            <div class="form-item" style="position: relative;">Alto: <input type="text" class="input-line bg-grey" style="width: 70px;">
+                <span style="color: red; position: absolute; bottom: -10px; right: 25px; font-weight: bold;">****</span>
+            </div>
+        </div>
+
+        <div class="form-row" style="justify-content: space-around; margin-top: 2px;margin-top: 2px;">
+            <div class="form-item"><label style="font-weight: normal;">Lote interno:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
+            <div class="form-item"><label style="font-weight: normal;">Lote Proveedor:</label> <input type="text" class="input-line bg-grey" style="width: 200px;"></div>
+        </div>
+        <div style="display: flex; justify-content: center; height: 30px; margin-top: none;">
+            <h2>ENSAYOS REALIZADOS</h2>
+        </div>
+            
+        <table class="main-table">
+            <tr>
+                <th colspan="7" class="bold font-7">TIPO DE ANÁLISIS</th>
+            </tr>
+            <tr class="bold text-center">
+                <th></th>
+                <th>DIÁMETRO INTERNO</th>
+                <th>ESPESOR</th>
+                <th>LARGO</th>
+                <th>ANCHO</th>
+                <th>ALTO</th>
+                <th>TRATAMIENTO TÉRMICO</th>
+            </tr>
+            <tr class="text-center bold">
+                <th class="text-left">UNIDAD</th>
+                <td>(mm)</td>
+                <td>(mm)</td>
+                <td>(mm)</td>
+                <td>(mm)</td>
+                <td>(mm)</td>
+                <td></td>
+            </tr>
+            <tr class="text-center bold">
+                <th class="text-left">MÉTODO DE ENSAYO</th>
+                <td>ASCA-ME-024</td>
+                <td>ASCA-ME-024</td>
+                <td>ASCA-ME-024</td>
+                <td>ASCA-ME-02</td>
+                <td>ASCA-ME-025</td>
+                <td>---</td>
+            </tr>
+            <tr class="text-center">
+                <td class="diagonal-cell">
+                    <span class="top-right">ESPECIFICACIONE</span>
+                    <span class="bottom-left">N° DE MUESTRAS</span>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bold">SI/NO</td>
+            </tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr class="text-center">
+                <th class="text-center">PROMEDIO</th>
+                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey">SI</td>
+            </tr>
+        </table>
+
+        <div class="bottom-section">
+            <div class="form-row">
+                <div class="form-item" style="flex: 1;"><label>ESTATUS:</label> <input type="text" class="input-line bg-grey" style="width: 60%;"></div>
+                <div class="form-item" style="flex: 1; justify-content: flex-end;"><label>RECLAMO N°:</label> <input type="text" class="input-line bg-grey" style="width: 50%;"></div>
+            </div>
+            
+            <div class="form-row" style="margin-top: 5px;">
+                <div class="form-item" style="width: 100%;"><label>CAUSA DEL RECLAMO:</label> <input type="text" class="input-line bg-grey" style="width: 90%;"></div>
+            </div>
+            
+            <div class="form-row" style="margin-top: 5px;">
+                <div class="form-item" style="width: 100%;"><label>OBSERVACIONES:</label> <input type="text" class="input-line" style="width: 92%;"></div>
+            </div>
+            <div class="form-row">
+                <div class="form-item" style="width: 100%;"><input type="text" class="input-line" style="width: 100%;"></div>
+            </div>
+
+            <table class="signature-table">
+                <tr>
+                    <td>
+                        <span>Analista de Materias Primas</span>
+                        <input type="text" class="input-line" style="width: 100px;">
+                        <br>
+                        Fecha: <input type="text" class="input-line" style="width: 80px;">
+                    </td>
+                    <td>
+                        <span>Supervisor de Laboratorios</span>
+                        <input type="text" class="input-line" style="width: 100px;">
+                        <br>
+                        Fecha: <input type="text" class="input-line" style="width: 80px;">
+                    </td>
+                    <td>
+                        <span>Gerente de Aseguramiento de la Calidad</span>
+                        <input type="text" class="input-line" style="width: 100px;">
+                        <br>
+                        Fecha: <input type="text" class="input-line" style="width: 80px;">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
