@@ -35,27 +35,44 @@
         </div>
 
         <div class="form-row" style="justify-content: space-between;">
-            <div class="form-item"><label>MATERIAL:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
-            <div class="form-item">Especifique (Otro material): <input type="text" class="input-line text-center" value="***" style="width: 60px;"></div>
-            <div class="form-item"><label>OC:</label> <input type="text" class="input-line bg-grey" style="width: 100px;"></div>
+            <div class="form-item"><label>MATERIAL:</label> 
+                <select id="material-select" class="input-line text-center" 
+                        style="width: 184px; 
+                            border-top: none; 
+                            border-left: none; 
+                            border-right: none; 
+                            border-bottom: 1px solid #000; 
+                            background: transparent; 
+                            text-align: center; 
+                            text-align-last: center; 
+                            cursor: pointer; 
+                            outline: none;
+                            appearance: none; 
+                            -webkit-appearance: none;">
+                    <option value="">Seleccione...</option>
+                    <option value="cores">Cores</option>
+                    <option value="paletas">Paletas</option>
+                </select>
+            </div>
+            <div class="form-item">Especifique (Otro material): <input type="text" class="input-line text-center" value="***" style="width: 150px;"></div>
+            <div class="form-item" style="margin-left: 38px;"><label>OC:</label> <input type="text" class="input-line bg-grey" style="width: 100px;"></div>
             <div class="form-item"><label>FACTURA:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
         </div>
 
         <div class="form-row" style="justify-content: space-between;">
-            <div class="form-item"><label>TIPO:</label> <input type="text" class="input-line bg-grey" style="width: 175px;"></div>
-            <div class="form-item">Especifique (Otro tipo): <input type="text" class="input-line text-center" value="***" style="width: 60px;"></div>
+            <div class="form-item"><label>TIPO:</label> <input type="text" class="input-line bg-grey" style="width: 210px;"></div>
+            <div class="form-item" style="margin-left: 40px;">Especifique (Otro tipo): <input type="text" class="input-line text-center" value="***" style="width: 150px;"></div>
             <div class="form-item"><label>CANTIDAD:</label> <input type="text" class="input-line bg-grey" style="width: 100px;"></div>
             <div class="form-item"><label>MUESTRAS:</label> <input type="text" class="input-line bg-grey" style="width: 150px;"></div>
         </div>
 
-        <div class="form-row" style="justify-content: flex-start; gap: 15px;">
-            <div class="form-item"><label>MEDIDAS (mm):</label></div>
+        <div class="form-row" style="justify-content: space-between; gap: 15px;">
+            <div class="form-item"><label>MEDIDAS (mm): <input type="text" class="input-line text-center" style="width: 150px;"></label></div>
             <div class="form-item">Diámetro: <input type="text" class="input-line text-center" value="***" style="width: 50px;"></div>
             <div class="form-item">Largo: <input type="text" class="input-line bg-grey" style="width: 70px;"></div>
             <div class="form-item">Espesor: <input type="text" class="input-line text-center" value="***" style="width: 50px;"></div>
-            <div class="form-item">Ancho: <span style="text-decoration: underline; margin: 0 5px;"> 1000 </span>.</div>
+            <div class="form-item">Ancho: <input type="text" class="input-line text-center" value="1000" style="width: 150px;"></div>
             <div class="form-item" style="position: relative;">Alto: <input type="text" class="input-line bg-grey" style="width: 70px;">
-                <span style="color: red; position: absolute; bottom: -10px; right: 25px; font-weight: bold;">****</span>
             </div>
         </div>
 
@@ -100,7 +117,7 @@
             </tr>
             <tr class="text-center">
                 <td class="diagonal-cell">
-                    <span class="top-right">ESPECIFICACIONE</span>
+                    <span class="top-right">ESPECIFICACIONES</span>
                     <span class="bottom-left">N° DE MUESTRAS</span>
                 </td>
                 <td></td>
@@ -109,29 +126,193 @@
                 <td></td>
                 <td></td>
                 <td class="bold">SI/NO</td>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
             </tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+                <td><input type="text" class="text-center"></td>
+            </tr>
             <tr class="text-center">
                 <th class="text-center">PROMEDIO</th>
-                <td class="bg-grey">#¡DIV/0!</td>
-                <td class="bg-grey">#¡DIV/0!</td>
-                <td class="bg-grey">#¡DIV/0!</td>
-                <td class="bg-grey">#¡DIV/0!</td>
-                <td class="bg-grey">#¡DIV/0!</td>
+                <td class="bg-grey"><input type="text" class="text-center"></td>
+                <td class="bg-grey"><input type="text" class="text-center"></td>
+                <td class="bg-grey"><input type="text" class="text-center" value="#¡DIV/0!"></td>
+                <td class="bg-grey"><input type="text" class="text-center" value="#¡DIV/0!"></td>
+                <td class="bg-grey"><input type="text" class="text-center" value="#¡DIV/0!"></td>
                 <td class="bg-grey">SI</td>
             </tr>
         </table>
@@ -178,5 +359,101 @@
         </div>
 
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // 1. Creamos un "lienzo" (SVG) invisible sobre toda la página para dibujar la línea
+            const svgNS = "http://www.w3.org/2000/svg";
+            const svg = document.createElementNS(svgNS, "svg");
+            svg.style.position = "absolute";
+            svg.style.pointerEvents = "none"; // Permite hacer clic "a través" de él
+            svg.style.zIndex = "1000";
+            svg.style.top = "0";
+            svg.style.left = "0";
+            svg.style.width = "100%";
+            document.body.appendChild(svg);
+
+            // 2. Creamos la línea fucsia
+            const line = document.createElementNS(svgNS, "line");
+            line.setAttribute("stroke", "#000"); // Color fucsia igual al de tu foto
+            line.setAttribute("stroke-width", "3");
+            line.style.display = "none";
+            svg.appendChild(line);
+
+            const materialSelect = document.getElementById("material-select");
+
+            // 3. Función principal que dibuja y bloquea celdas
+            function actualizarTabla() {
+                if (!materialSelect) return;
+                const material = materialSelect.value;
+
+                // Buscamos las 15 filas de datos (las reconocemos porque tienen 7 inputs)
+                const filas = Array.from(document.querySelectorAll('tr')).filter(tr => tr.querySelectorAll('input').length === 7);
+                if (filas.length === 0) return;
+
+                // Ajustamos el alto del lienzo SVG a toda la página
+                svg.style.height = document.documentElement.scrollHeight + "px";
+
+                if (material === "cores" || material === "paletas") {
+                    const primeraFila = filas[0];
+                    const ultimaFila = filas[filas.length - 1];
+                    let celdaInicio, celdaFin;
+
+                    // Seleccionamos las esquinas según las fotos de referencia
+                    if (material === "cores") {
+                        celdaInicio = ultimaFila.cells[4]; // Esquina inf-izq de Ancho
+                        celdaFin = primeraFila.cells[6];   // Esquina sup-der de Tratamiento Térmico
+                    } else if (material === "paletas") {
+                        celdaInicio = ultimaFila.cells[1]; // Esquina inf-izq de Diámetro
+                        celdaFin = primeraFila.cells[2];   // Esquina sup-der de Espesor
+                    }
+
+                    // Calculamos las coordenadas exactas en la pantalla
+                    const rectInicio = celdaInicio.getBoundingClientRect();
+                    const rectFin = celdaFin.getBoundingClientRect();
+
+                    line.setAttribute("x1", rectInicio.left + window.scrollX);
+                    line.setAttribute("y1", rectInicio.bottom + window.scrollY);
+                    line.setAttribute("x2", rectFin.right + window.scrollX);
+                    line.setAttribute("y2", rectFin.top + window.scrollY);
+                    line.style.display = "block";
+
+                    // Bloqueamos los inputs debajo de la línea y los limpiamos
+                    filas.forEach(tr => {
+                        const inputs = tr.querySelectorAll('input');
+                        // Primero habilitamos todos
+                        inputs.forEach(input => {
+                            input.disabled = false;
+                            input.style.backgroundColor = "transparent";
+                        });
+                        
+                        // Luego deshabilitamos los correspondientes
+                        if (material === "cores") {
+                            [4, 5, 6].forEach(i => { inputs[i].disabled = true; inputs[i].value = ""; inputs[i].style.cursor = "not-allowed"; });
+                        } else if (material === "paletas") {
+                            [1, 2].forEach(i => { inputs[i].disabled = true; inputs[i].value = ""; inputs[i].style.cursor = "not-allowed"; });
+                        }
+                    });
+
+                } else {
+                    // Si no hay nada seleccionado, ocultamos la línea y habilitamos todo
+                    line.style.display = "none";
+                    filas.forEach(tr => {
+                        tr.querySelectorAll('input').forEach(input => {
+                            input.disabled = false;
+                            input.style.cursor = "text";
+                        });
+                    });
+                }
+            }
+
+            // Escuchamos los cambios en el Select y si cambian el tamaño de la ventana
+            if (materialSelect) {
+                materialSelect.addEventListener("change", actualizarTabla);
+                window.addEventListener("resize", actualizarTabla);
+                // Pequeño retardo inicial por si la tabla tarda unos milisegundos en acomodarse
+                setTimeout(actualizarTabla, 300);
+            }
+        });
+    </script>
 </body>
 </html>
